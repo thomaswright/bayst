@@ -9,15 +9,15 @@ Component specs are listed below. For more guidance, see the 'examples' folder w
 
 Bayst is built off a modified core of [rebass](https://github.com/jxnblk/rebass). If you need a similar solution for the web, rebass is a great option.
 
-![TextButton] : [TextButton]
-![ButtonGroup] : [ButtonGroup]
-![Icons] : [Icons]
-![ColorPicker] : [ColorPicker]
-![ListItem] : [ListItem]
-![Panel] : [Panel]
-![TextInputBase] : [TextInputBase]
-![Checkbox] : [Checkbox]
-![TextBase] : [TextBase]
+![TextButton] (https://cloud.githubusercontent.com/assets/5634164/19631767/a97101fc-9965-11e6-8c09-604f571e5515.png)
+![ButtonGroup] (https://cloud.githubusercontent.com/assets/5634164/19631738/76ac661c-9965-11e6-8666-3b63ebaa7471.png)
+![Icons] (https://cloud.githubusercontent.com/assets/5634164/19631746/874d1566-9965-11e6-936f-89b2cb1cba6e.png)
+![ColorPicker] (https://cloud.githubusercontent.com/assets/5634164/19631744/839ad53e-9965-11e6-8642-9427baf220d9.png)
+![ListItem] (https://cloud.githubusercontent.com/assets/5634164/19631748/8b0b3b38-9965-11e6-948f-916b9bd3319a.png)
+![Panel] (https://cloud.githubusercontent.com/assets/5634164/19631758/a00a2e9a-9965-11e6-8b5c-24529133673a.png)
+![TextInputBase] (https://cloud.githubusercontent.com/assets/5634164/19631768/ac992710-9965-11e6-9308-bac33d8b659c.png)
+![Checkbox] (https://cloud.githubusercontent.com/assets/5634164/19631741/7b7b03d8-9965-11e6-826c-41a731521125.png)
+![TextBase] (https://cloud.githubusercontent.com/assets/5634164/19631765/a563e0b6-9965-11e6-87b2-57f82600b8db.png)
 
 ## Install
 ```
@@ -505,13 +505,3 @@ const MyTextInputComp = TextInputHandler(MyPresentationalComponent)
   },
 }
 ```
-
-[ButtonGroup] : (https://cloud.githubusercontent.com/assets/5634164/19631738/76ac661c-9965-11e6-8666-3b63ebaa7471.png)
-[Checkbox] : (https://cloud.githubusercontent.com/assets/5634164/19631741/7b7b03d8-9965-11e6-826c-41a731521125.png)
-[ColorPicker] : (https://cloud.githubusercontent.com/assets/5634164/19631744/839ad53e-9965-11e6-8642-9427baf220d9.png)
-[Icon] : (https://cloud.githubusercontent.com/assets/5634164/19631746/874d1566-9965-11e6-936f-89b2cb1cba6e.png)
-[ListItem] : (https://cloud.githubusercontent.com/assets/5634164/19631748/8b0b3b38-9965-11e6-948f-916b9bd3319a.png)
-[Panel] : (https://cloud.githubusercontent.com/assets/5634164/19631758/a00a2e9a-9965-11e6-8b5c-24529133673a.png)
-[TextBase] : (https://cloud.githubusercontent.com/assets/5634164/19631765/a563e0b6-9965-11e6-87b2-57f82600b8db.png)
-[TextButton] : (https://cloud.githubusercontent.com/assets/5634164/19631767/a97101fc-9965-11e6-8c09-604f571e5515.png)
-[TextInputBase] : (https://cloud.githubusercontent.com/assets/5634164/19631768/ac992710-9965-11e6-9308-bac33d8b659c.png)
