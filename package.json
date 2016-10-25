@@ -1,0 +1,30 @@
+{
+  "name": "bayst",
+  "version": "1.0.2",
+  "description": "React Native UI Library",
+  "homepage": "https://github.com/thomaswright/bayst#readme",
+  "bugs": {
+    "url": "https://github.com/thomaswright/bayst/issues"
+  },
+  "main": "source/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thomaswright/bayst.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react native",
+    "react-native",
+    "reactnative"
+  ],
+  "author": "Thomas Wright <contact@unclesoup.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chroma-js": "^1.2.1",
+    "react": "15.3.2",
+    "react-addons-pure-render-mixin": "^15.3.2",
+    "react-native": "0.35.0",
+    "react-native-vector-icons": "^2.1.0"
+  }
+}
