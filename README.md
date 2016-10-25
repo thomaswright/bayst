@@ -1,8 +1,6 @@
 
 # Bayst
 
-Yet another UI library.
-
 Bayst a component library for React Native that makes it quick to build presentational components, easy to maintain style consistency across your app, and simple to modify those styles later. Styles scales are specified in the baseValue configuration, added to and overridden by setting newBaseValues via context. These scales map to specific prop indices and attributes, meaning you can build your app style focusing on semantic relations rather than rendered values.
 
 Though you can use these components raw, it's intended that you build a set of presentational components with them, and then use that set. That is, this isn't a set of styled components, but rather components which are easy to style.
