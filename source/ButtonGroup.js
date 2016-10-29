@@ -38,7 +38,7 @@ const ButtonGroup = ({
       {...containerProps}
       style={{
         flexDirection: isVertical ? "column" : "row",
-        flex: 1,
+        flex: 0,
         ...(containerProps && containerProps.style)
       }}>
       {

@@ -15,6 +15,7 @@ const Button = ({
     style: {
       flexDirection: "row",
       alignItems: "center",
+      justifyContent: "center",
       ...props.style
     },
   }
@@ -22,7 +23,8 @@ const Button = ({
     ...insideViewProps,
     style: {
       alignItems: "center",
-      flex: 1,
+      justifyContent: "center",
+      flex: 0,
       ...insideViewStyle,
       ...(insideViewProps && insideViewProps.style)
     }
