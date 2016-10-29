@@ -92,7 +92,9 @@ const ButtonGroup = ({
               fontSizeRank={button.fontSizeRank || fontSizeRank}
               onPress={() => {
                 buttonGroupOnPress(index)
-                button.onPress(index)
+                if (button.onPress) {
+                  button.onPress(index)
+                }
               }}
               underlayColor={
                 button.isActive ?
