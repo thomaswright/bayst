@@ -1,6 +1,6 @@
 {
   "name": "bayst",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "React Native UI Library",
   "homepage": "https://github.com/thomaswright/bayst#readme",
   "bugs": {
@@ -22,9 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "chroma-js": "^1.2.1",
-    "react": "15.3.2",
     "react-addons-pure-render-mixin": "^15.3.2",
-    "react-native": "0.35.0",
     "react-native-vector-icons": "^2.1.0"
   },
   "scripts": {
@@ -39,6 +37,8 @@
     "babel-preset-react-native": "1.9.0",
     "jest": "16.0.2",
     "jest-react-native": "16.0.0",
-    "react-test-renderer": "15.3.2"
+    "react-test-renderer": "15.3.2",
+    "react": "15.3.2",
+    "react-native": "0.35.0"
   }
 }

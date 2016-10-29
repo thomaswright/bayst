@@ -8,6 +8,7 @@ const TextInputAndTwoButtonsPresentational1 = ({
   placeholder,
   onSubmit,
   onCancel,
+  onChangeText,
   ...props
 }) => {
   const resultComp = (
@@ -26,6 +27,7 @@ const TextInputAndTwoButtonsPresentational1 = ({
           marginRank={2}
           defaultValue={defaultValue}
           placeholder={placeholder}
+          onChangeText={onChangeText}
           onSubmit={onSubmit}
           />
       </Box>
@@ -57,6 +59,7 @@ const TextInputAndTwoButtonsPresentational2 = ({
   placeholder,
   onSubmit,
   onCancel,
+  onChangeText,
   ...props
 }) => {
   const resultComp = (
@@ -77,6 +80,7 @@ const TextInputAndTwoButtonsPresentational2 = ({
           marginRank={1}
           marginLeftRank={3}
           color={"blue"}
+          onChangeText={onChangeText}
           defaultValue={defaultValue}
           placeholder={placeholder}
           onSubmit={onSubmit}
@@ -118,6 +122,7 @@ const TextInputAndTwoButtonsPresentational3 = ({
   placeholder,
   onSubmit,
   onCancel,
+  onChangeText,
   ...props
 }) => {
   const resultComp = (
@@ -137,6 +142,7 @@ const TextInputAndTwoButtonsPresentational3 = ({
           style={{alignSelf: "center"}}
           marginRank={1}
           color={"black"}
+          onChangeText={onChangeText}
           defaultValue={defaultValue}
           placeholder={placeholder}
           onSubmit={onSubmit}

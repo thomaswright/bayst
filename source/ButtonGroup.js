@@ -70,7 +70,6 @@ const ButtonGroup = ({
           const defaultUnderlay = theme === undefined ?
             "rgba(255, 255, 255, 0.5)" : undefined
 
-            console.log("THEME", theme);
           return (
             <TextButton
               key={index}

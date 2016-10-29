@@ -2,3 +2,5 @@ index.android.js
 index.ios.js
 ios/
 android/
+__tests__/
+node_modules/
