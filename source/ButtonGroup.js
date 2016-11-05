@@ -118,7 +118,7 @@ const ButtonGroup = ({
   )
   const resultComp = (allowOverflow) ?
     (
-      <ScrollView horizontal={!isVertical} style={{flex: 1}}>
+      <ScrollView horizontal={!isVertical} style={{flex: 0}}>
         {buttonList}
       </ScrollView>
     ) :
